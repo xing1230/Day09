@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cuble.myapplication.Main2Activity">
+
+    <LinearLayout
+
+        android:id="@+id/layout_main_tabtitle"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+
+
+
+        <TextView
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textSize="24sp"
+
+            android:background="#999"
+
+            android:text="Tab1"/>
+
+
+
+
+        <TextView
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textSize="24sp"
+
+            android:background="#999"
+
+            android:layout_marginLeft="1dp"
+
+            android:text="Tab2"/>
+
+
+
+
+        <TextView
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textSize="24sp"
+
+            android:background="#999"
+
+            android:layout_marginLeft="1dp"
+
+            android:text="Tab3"/>
+        <TextView
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:textSize="24sp"
+
+            android:background="#999"
+
+            android:layout_marginLeft="1dp"
+
+            android:text="Tab4"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="1px"
+
+        android:background="#00f"
+
+         android:text=""/>
+
+
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/vpp"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"/>
+</LinearLayout>
